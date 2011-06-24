@@ -5,6 +5,7 @@ int main(int arg,char * arv[])
   scanf("%f",&i);
   scanf("%f",&j);
   s=sum(i,j);
+  printf("%f",s);
   return 0;
 }
 float sum(float a,float b)
